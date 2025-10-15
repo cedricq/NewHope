@@ -18,21 +18,4 @@ ENV_GCC_CYGWIN=C:\cygwin
 6) To build SW on target,  build-deviceF4Rel or build-deviceF4Dbg
 
 
-# create branch
-git branch testCQ
-
-# switch to branch
-git checkout testCQ
-
-# identify which branch we're pointing to
-git status
-
-# update branch with remote master (from the current branch)
-git merge master
-
-# commit changes in current branch
-git commit
-
-# push commited changes on the remote server
-git push -u origin testCQ
 
